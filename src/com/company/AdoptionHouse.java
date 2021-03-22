@@ -70,8 +70,12 @@ public class AdoptionHouse extends Rehoming implements Interface {
     }
 
      void printDogs(){
-        System.out.println("ONG: " + getRehomingPlace() + " | " + "Dog ID: " + getAdoptionId());
-        System.out.println("");
+        System.out.println("\n");
+        System.out.println("\nONG: " + getRehomingPlace());
+        System.out.println("\n-----------------------------------------------------------");
+        System.out.println("PLEASE CHECK BELOW THE LIST OF ALL THE DOGS OF MARCH 2021:  ");
+         System.out.println("-----------------------------------------------------------");
+
         for (Dog dog : getListOfDogs()){
             System.out.println(dog.toString() + "\n");
 
@@ -83,10 +87,12 @@ public class AdoptionHouse extends Rehoming implements Interface {
 
         HashMap<String, String> dogsAdopted = getDogsAdopted();
 
-        System.out.println("Adopted dogs:\n");
+        System.out.println("---------------------------");
+        System.out.println("DOGS ADOPTED IN MARCH 2021:");
+        System.out.println("---------------------------");
 
         for (Map.Entry<String, String> dogs: dogsAdopted.entrySet()){
-            System.out.println("Dog Name: "+dogs.getKey() + "\n" + "Breed: " + dogs.getValue());
+            System.out.println("Dog Name: "+dogs.getKey() + "\n" + "Breed: " + dogs.getValue() + "\n");
 
         }
     }
@@ -95,10 +101,12 @@ public class AdoptionHouse extends Rehoming implements Interface {
 
         HashMap<String, String> dogsAvailable = getDogsAvailable();
 
-        System.out.println("Available dogs:\n");
+        System.out.println("-----------------------------------");
+        System.out.println("DOGS STILL AVAILABLE IN MARCH 2021:");
+        System.out.println("-----------------------------------");
 
         for (Map.Entry<String, String> dog: dogsAvailable.entrySet()){
-            System.out.println("Dog Name: "+dog.getKey() + "\n" + "Breed: " + dog.getValue());
+            System.out.println("Dog Name: "+dog.getKey() + "\n" + "Breed: " + dog.getValue() + "\n");
 
         }
     }
