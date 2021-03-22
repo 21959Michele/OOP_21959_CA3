@@ -18,7 +18,7 @@ public class ReadFile {
         }
         //# Feature: Exception types
         catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
+            System.out.println("ERROR");
             e.printStackTrace();
         }
     }

@@ -8,12 +8,12 @@ public class CreateFile {
         try {
             File myObj = new File(fileName+".txt");
             if (myObj.createNewFile()) {
-                System.out.println("File created: " + myObj.getName());
+                System.out.println("File created successfully: " + myObj.getName());
             } else {
-                System.out.println("File already exists.");
+                System.out.println("Existing file, rename and try again.");
             }
         } catch (IOException e) {
-            System.out.println("An error occurred.");
+            System.out.println("ERROR.");
             e.printStackTrace();
         }
     }

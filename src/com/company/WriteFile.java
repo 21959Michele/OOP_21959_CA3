@@ -10,11 +10,11 @@ public class WriteFile {
             FileWriter myWriter = new FileWriter(fileName+".txt");
             myWriter.write(fileName+": \n");
             myWriter.close();
-            System.out.println("Successfully wrote to the file.");
+            System.out.println("Wrote successfully.");
         }
-        //# Feature: Exception
+
         catch (IOException e) {
-            System.out.println("An error occurred.");
+            System.out.println("ERROR");
             e.printStackTrace();
         }
     }
