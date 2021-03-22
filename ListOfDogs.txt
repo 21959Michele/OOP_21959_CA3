@@ -1,0 +1,41 @@
+ListOfDogs: 
+
+Dog: Butch
+breed: Pit Bull
+gender: male
+Age: 2
+
+Dog: Bailey
+breed: Greyhound
+gender: female
+Age: 4
+
+Dog: Baxter
+breed: Lurcher
+gender: male
+Age: 6
+
+Dog: Bella Trix
+breed: Jach Russel Terrier
+gender: female
+Age: 3
+
+Dog: Blanca
+breed: Staffordshire Cross
+gender: female
+Age: 7
+
+Dog: Charlie
+breed: Terrier Cross
+gender: male
+Age: 5
+
+Dog: Elsie
+breed: Labrador
+gender: male
+Age: 3
+
+Dog: Bingo
+breed: poodle
+gender: male
+Age: 7
